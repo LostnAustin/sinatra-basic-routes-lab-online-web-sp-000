@@ -8,11 +8,11 @@ class App < Sinatra::Base
       end
 
 
-  # get '/' do
-  #   "hometown"
-  # end
-  #
-  # get '/' do
-  #   "favorite-song"
-  # end
+  get '/hometown' do
+    "Round Rock, Texas"
+  end
+
+  get '/favorite-song' do
+    "Tool - Lateralus"
+  end
 end
