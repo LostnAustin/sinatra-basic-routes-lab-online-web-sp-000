@@ -8,11 +8,11 @@ class App < Sinatra::Base
       "My name is Chad"
       end
   end
-  
+
   # get '/' do
   #   "hometown"
   # end
-  # 
+  #
   # get '/' do
   #   "favorite-song"
   # end
